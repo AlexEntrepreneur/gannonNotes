@@ -1,4 +1,4 @@
-# Working With Others
+# Pair programing
 
 ### Notes by Gannon Darcy
 
