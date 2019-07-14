@@ -10,9 +10,9 @@
 
 - Certain things you can ONLY test on servers (that you can't test on your local machine) like CORS issues, issue with hosting (heroku issues), parts of 3rd party APIs, some native functionality of mobile devices (cameras, location, gyroscope, etc)
 
-Flow/Timeline:
+# Flow/Timeline:
 
-**DEV:**
+## **Dev**
 
 - make a feature-named branch if it doesn't already exist.
 - making init commit
@@ -21,7 +21,7 @@ Flow/Timeline:
 - code review
 - deploy this INDIVIDUAL branch to staging.
 
-**STAGING:**
+## **Staging**
 
 - Deploy to relevant staging server (netlify or heroku, both if the PR affects both)
 - (if there is a lot of "stepping on toes" with the one set staging server(s) then make a second set of staging servers to avoid this and work on communication)
@@ -30,13 +30,13 @@ Flow/Timeline:
 - Keep pulling master and merging into this branch to make sure it's all up-to-date before final merge to avoid any surprises.
 - Merge to master
 
-**PRODUCTION:**
+## **Production**
 
 - The newly merged branch should be deployed to production now.
 - Double check to make sure that production doesn't magically break (doing this should avoid that from ever happening.... but sometimes weird things happen).
 - If production EVER breaks (even if it's 2am) rally the team and fix it ASAP (if you have real people using the application.
 
-**MISC:**
+## **Misc**
 
 - CI (continuous integration) for production only, not staging. Staging needs to be click-to-deploy. Checkout CircleCI
 - Uptime (you want to monitor production with several alerts to let you/the team know if production goes down. Its good to have it for staging too but it's mission-critical for production).
