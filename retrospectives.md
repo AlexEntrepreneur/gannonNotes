@@ -4,7 +4,7 @@
 
 1. This is team wide and team focused. Not your 1 on 1.
 
-Retrospectives are a backward-facing meeting that is focused on learning from a certain time frame (a 2-week sprint in this case) think of it like "Group Consoling" where you can hash everything that's happened in the last 2 weeks and how that can be improved.
+   Retrospectives are a backward-facing meeting that is focused on learning from a certain time frame (a 2-week sprint in this case) think of it like "Group Consoling" where you can hash everything that's happened in the last 2 weeks and how that can be improved.
 
 2. Use the check in form that Jess provided as a template:
 
